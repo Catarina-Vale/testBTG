@@ -1,0 +1,7 @@
+C:\Users\v-ale\testBTG\CatarinaBtg\obj\Debug\net8.0\CataringBtg.csproj.AssemblyReference.cache
+C:\Users\v-ale\testBTG\CatarinaBtg\obj\Debug\net8.0\CataringBtg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v-ale\testBTG\CatarinaBtg\obj\Debug\net8.0\CataringBtg.AssemblyInfoInputs.cache
+C:\Users\v-ale\testBTG\CatarinaBtg\obj\Debug\net8.0\CataringBtg.AssemblyInfo.cs
+C:\Users\v-ale\testBTG\CatarinaBtg\obj\Debug\net8.0\CataringBtg.csproj.CoreCompileInputs.cache
+C:\Users\v-ale\testBTG\CatarinaBtg\obj\Debug\net8.0\CataringBtg.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\v-ale\testBTG\CatarinaBtg\obj\Debug\net8.0\CataringBtg.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "MhOcVUxDSJ76/W321Z8epWrzxrXtgg1R3cuNi34oU63LcPTz5A6ROQVZDcZWKXvH7t5qn6kqiGl1VO13fuD4/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\v-ale\\testBTG\\CatarinaBtg\\CatarinaBtg.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\v-ale\\.nuget\\packages\\awssdk.core\\3.7.303.12\\awssdk.core.3.7.303.12.nupkg.sha512",
+    "C:\\Users\\v-ale\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.302.13\\awssdk.dynamodbv2.3.7.302.13.nupkg.sha512",
+    "C:\\Users\\v-ale\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.4\\microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",
+    "C:\\Users\\v-ale\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\v-ale\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\v-ale\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\v-ale\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\v-ale\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\v-ale\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

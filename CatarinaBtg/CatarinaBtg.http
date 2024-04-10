@@ -1,0 +1,6 @@
+@CataringBtg_HostAddress = http://localhost:5020
+
+GET {{CataringBtg_HostAddress}}/cat/
+Accept: application/json
+
+###
