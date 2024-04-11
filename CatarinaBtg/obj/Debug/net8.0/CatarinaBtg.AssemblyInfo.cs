@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatarinaBtg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca6e1bf48d29dd40e7cc72a500fcce1402f5e70e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatarinaBtg")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatarinaBtg")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

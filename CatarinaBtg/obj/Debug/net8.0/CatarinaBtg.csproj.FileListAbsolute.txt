@@ -33,3 +33,5 @@ C:\Users\v-ale\testBTG\CatarinaBtg\obj\Debug\net8.0\refint\CatarinaBtg.dll
 C:\Users\v-ale\testBTG\CatarinaBtg\obj\Debug\net8.0\CatarinaBtg.pdb
 C:\Users\v-ale\testBTG\CatarinaBtg\obj\Debug\net8.0\CatarinaBtg.genruntimeconfig.cache
 C:\Users\v-ale\testBTG\CatarinaBtg\obj\Debug\net8.0\ref\CatarinaBtg.dll
+C:\Users\v-ale\testBTG\CatarinaBtg\obj\Debug\net8.0\CatarinaBtg.sourcelink.json
+C:\Users\v-ale\testBTG\CatarinaBtg\bin\Debug\net8.0\AWSSDK.Extensions.NETCore.Setup.dll

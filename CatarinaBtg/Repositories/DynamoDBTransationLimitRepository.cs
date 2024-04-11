@@ -1,5 +1,6 @@
 using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.DocumentModel;
+using Amazon.Runtime;
 using CatarinaBtg.Interfaces;
 using CatarinaBtg.Models;
 
@@ -9,14 +10,23 @@ public class DynamoDBTransactionLimitRepository : ITransactionLimitRepository
 {
     private readonly AmazonDynamoDBClient _dynamoDBClient;
 
-    public DynamoDBTransactionLimitRepository(AmazonDynamoDBClient dynamoDBClient)
+    public DynamoDBTransactionLimitRepository(IConfiguration configuration)
     {
-        _dynamoDBClient = dynamoDBClient;
+        var region = configuration["AWS:Region"];
+        var accessKeyId = configuration["AWS:AccessKeyId"];
+        var secretAccessKey = configuration["AWS:SecretAccessKey"];
+        var credentials = new BasicAWSCredentials(accessKeyId, secretAccessKey);
+            var config = new AmazonDynamoDBConfig
+            {
+                RegionEndpoint = Amazon.RegionEndpoint.GetBySystemName(region)
+            };
+
+            _dynamoDBClient = new AmazonDynamoDBClient(credentials, config);
     }
 
     public async Task<TransactionLimit> GetTransactionLimitAsync(string cpf)
     {
-        var table = Table.LoadTable(_dynamoDBClient, "TransactionLimits");
+        var table = Table.LoadTable(_dynamoDBClient, "catarina-vale-table");
 
         var document = await table.GetItemAsync(cpf);
         if (document == null)
@@ -33,7 +43,7 @@ public class DynamoDBTransactionLimitRepository : ITransactionLimitRepository
 
     public async Task AddOrUpdateTransactionLimitAsync(TransactionLimit transactionLimit)
     {
-        var table = Table.LoadTable(_dynamoDBClient, "TransactionLimits");
+        var table = Table.LoadTable(_dynamoDBClient, "catarina-vale-table");
 
         var document = new Document();
         document["CPF"] = transactionLimit.CPF;
@@ -46,7 +56,7 @@ public class DynamoDBTransactionLimitRepository : ITransactionLimitRepository
 
     public async Task RemoveTransactionLimitAsync(TransactionLimit transactionLimit)
     {
-        var table = Table.LoadTable(_dynamoDBClient, "TransactionLimits");
+        var table = Table.LoadTable(_dynamoDBClient, "catarina-vale-table");
 
         var document = new Document();
         document["CPF"] = transactionLimit.CPF;
